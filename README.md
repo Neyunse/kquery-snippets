@@ -12,3 +12,36 @@ for documentation, please see this [page](https://github.com/Neyunse/kquery/wiki
 Do you want something to be added? Open an [issue](https://github.com/Neyunse/kquery/issues/new/choose) and we can discuss it.
 
 want to contribute? use the Fork and [clone the repository](https://github.com/Neyunse/kquery), then create a new branch and submit it for repo. If your change is interesting I will implement it.
+
+### Snippet list
+
+
+* kiml (Only on .html)
+* kimv1 (Only on .html)
+
+> The list below is in the same order as the functions in the (documentation)[https://github.com/Neyunse/kquery/wiki].
+
+* kload
+* kges
+* kge
+* kev
+* kihtml
+* kde
+* kac
+* krc
+* krpc
+* kgsds
+* kgds
+* krcs
+* khc
+* ktc
+* ks
+* ksobj
+* krme
+* kafI
+* kafO
+* kaa
+* krg
+* krp
+* krpt
+* krd
