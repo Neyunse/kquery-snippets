@@ -1,0 +1,42 @@
+{
+  "name": "kquery",
+  "displayName": "Kquery Snippets",
+  "description": "Kquery snippet generator",
+  "publisher": "Neyunse",
+  "version": "1.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/Neyunse/kquery",
+  "bugs": {
+    "url": "https://github.com/Neyunse/kquery/issues/new/choose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neyunse/kquery"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}

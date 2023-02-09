@@ -1,0 +1,16 @@
+{
+  "kiml": {
+    "prefix": "!kiml",
+    "body": [
+      "<script src="//cdn.jsdelivr.net/gh/Neyunse/kquery/dist/kquery.browser.min.js"></script>"
+    ],
+    "description": "Omit the version completely to get the latest one, you should NOT use this in production."
+  },
+  "kimv1": {
+    "prefix": "!kimv1",
+    "body": [
+      "<script src="//cdn.jsdelivr.net/gh/Neyunse/kquery@1/dist/kquery.browser.min.js"></script>"
+    ],
+    "description": "Import kquery using a version 1 range instead of a specific version."
+  }
+}

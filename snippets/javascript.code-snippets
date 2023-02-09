@@ -1,0 +1,131 @@
+{
+  "kload": {
+    "prefix": "!kload",
+    "body": ["_k().load(() => {", "\t$0", "})"],
+    "description": "If the DOM is ready, run the function, otherwise wait until it is ready and then run the function."
+  },
+  "kges": {
+    "prefix": "!kges",
+    "body": "_k(${selector}).getElements()",
+    "description": "It returns a NodeList of all the elements that match the selector."
+  },
+  "kge": {
+    "prefix": "!kge",
+    "body": "_k(${selector}).getElements()",
+    "description": "It returns the single element."
+  },
+  "kev": {
+    "prefix": "!kev",
+    "body": ["_k(${selector}).event(${events}, () {", "\t$0", "});"],
+    "description": "Attach an event handler function for one or more events to the selected elements."
+  },
+  "kihtml": {
+    "prefix": "!kihtml",
+    "body": "_k(${selector}).insertHTML(${0})",
+    "description": "Insert html into the selected element."
+  },
+  "kde": {
+    "prefix": "!kde",
+    "body": "_k(${selector}).disableElement(${0})",
+    "description": "The function takes a boolean as an argument. this add disable state to the element."
+  },
+  "kac": {
+    "prefix": "!kac",
+    "body": "_k(${selector}).addClass(${className})",
+    "description": "It adds a class to the element."
+  },
+  "krc": {
+    "prefix": "!krc",
+    "body": "_k(${selector}).removeClass(${className})",
+    "description": "It remove a class from the element."
+  },
+  "krpc": {
+    "prefix": "!krpc",
+    "body": "_k(${selector}).replaceClass(${className},${className})",
+    "description": "It remplace a class from the element."
+  },
+  "kgsds": {
+    "prefix": "!kgsds",
+    "body": "_k(${selector}).getDataSet()",
+    "description": "This function returns the dataset of the single element."
+  },
+  "kgds": {
+    "prefix": "!kgds",
+    "body": "_k(${selector}).getDataSets()",
+    "description": "Same has .getDataSet() but, this get data from all elements."
+  },
+  "krcs": {
+    "prefix": "!krcs",
+    "body": "_k(${selector}).removeChildrens()",
+    "description": "It removes all the children of the element."
+  },
+  "khc": {
+    "prefix": "!khc",
+    "body": "_k(${selector}).hasClass(${className})",
+    "description": "This function returns true if the element has the class, and false if it doesn't."
+  },
+  "ktc": {
+    "prefix": "!ktc",
+    "body": "_k(${selector}).toggleClass(${className})",
+    "description": "toggle the class of the element."
+  },
+  "ks": {
+    "prefix": "!ks",
+    "body": "_k(${selector}).style(${propertyName}, ${value})",
+    "description": "Add css to the element."
+  },
+  "ksobj": {
+    "prefix": "!ksobj",
+    "body": [
+      "_k(${selector}).style({",
+      "\t${propertyName}: ${value}",
+      "\t$0",
+      "});"
+    ],
+    "description": "Add one or more css to the element."
+  },
+  "krme": {
+    "prefix": "!krme",
+    "body": "_k(${selector}).remove()",
+    "description": "Remove the element from the DOM."
+  },
+  "kafI": {
+    "prefix": "!kafI",
+    "body": "_k(${selector}).animate().fadeIn()",
+    "description": "Display the matched elements by fading them to opaque."
+  },
+  "kafO": {
+    "prefix": "!kafO",
+    "body": "_k(${selector}).animate().fadeOut()",
+    "description": "Hide the matched elements by fading them to transparent."
+  },
+  "kaa": {
+    "prefix": "!kaa",
+    "body": [
+      "_k(${selector}).animate().anime([",
+      "\t{ ${propertyName}: ${value}}",
+      "])"
+    ],
+    "description": "Create a custom animation."
+  },
+  "krg": {
+    "prefix": "!krg",
+    "body": "await _k().remote(${url}).get();",
+    "description": "Make a get request to the API"
+  },
+  "krp": {
+    "prefix": "!krg",
+    "body": "await _k().remote(${url}).post();",
+    "description": "Make a post request to the API"
+  },
+  "krpt": {
+    "prefix": "!krpt",
+    "body": "await _k().remote(${url}).put();",
+    "description": "Make a put request to the API"
+  },
+  "krd": {
+    "prefix": "!krd",
+    "body": "await _k().remote(${url}).delete();",
+    "description": "Make a delete request to the API"
+  }
+}
