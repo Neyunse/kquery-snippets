@@ -19,7 +19,7 @@ want to contribute? use the Fork and [clone the repository](https://github.com/N
 * kiml (Only on .html)
 * kimv1 (Only on .html)
 
-> The list below is in the same order as the functions in the (documentation)[https://github.com/Neyunse/kquery/wiki].
+> The list below is in the same order as the functions in the [documentation](https://github.com/Neyunse/kquery/wiki).
 
 * kload
 * kges
