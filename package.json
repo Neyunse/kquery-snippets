@@ -18,10 +18,7 @@
     "vscode": "^1.75.0"
   },
   "scripts": {
-    "build" :"vsce package",
-    "publish": "vsce publish",
-    "pre-publish": "vsce publish --pre-release",
-    "test": "code --install-extension kquery-1.1.0.vsix"
+    "build" :"vsce package"
   },
   "categories": [
     "Snippets"
