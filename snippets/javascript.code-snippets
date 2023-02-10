@@ -6,78 +6,78 @@
   },
   "kges": {
     "prefix": "kges",
-    "body": "_k(${element}).getElements()",
+    "body": "_k('${element}').getElements()",
     "description": "It returns a NodeList of all the elements that match the selector."
   },
   "kge": {
     "prefix": "kge",
-    "body": "_k(${element}).getElements()",
+    "body": "_k('${element}').getElements()",
     "description": "It returns the single element."
   },
   "kev": {
     "prefix": "kev",
-    "body": ["_k(${element}).event(${events}, () {", "\t$0", "});"],
+    "body": ["_k('${element}').event('${events}', () => {", "\t$0", "});"],
     "description": "Attach an event handler function for one or more events to the selected elements."
   },
   "kihtml": {
     "prefix": "kihtml",
-    "body": "_k(${element}).insertHTML(${0})",
+    "body": "_k('${element}').insertHTML(${0})",
     "description": "Insert html into the selected element."
   },
   "kde": {
     "prefix": "kde",
-    "body": "_k(${element}).disableElement(${0})",
+    "body": "_k('${element}').disableElement(${0})",
     "description": "The function takes a boolean as an argument. this add disable state to the element."
   },
   "kac": {
     "prefix": "kac",
-    "body": "_k(${element}).addClass(${className})",
+    "body": "_k('${element}').addClass(${className})",
     "description": "It adds a class to the element."
   },
   "krc": {
     "prefix": "krc",
-    "body": "_k(${element}).removeClass(${className})",
+    "body": "_k('${element}').removeClass(${className})",
     "description": "It remove a class from the element."
   },
   "krpc": {
     "prefix": "krpc",
-    "body": "_k(${element}).replaceClass(${className},${className})",
+    "body": "_k('${element}').replaceClass(${className},${className})",
     "description": "It remplace a class from the element."
   },
   "kgsds": {
     "prefix": "kgsds",
-    "body": "_k(${element}).getDataSet()",
+    "body": "_k('${element}').getDataSet()",
     "description": "This function returns the dataset of the single element."
   },
   "kgds": {
     "prefix": "kgds",
-    "body": "_k(${element}).getDataSets()",
+    "body": "_k('${element}').getDataSets()",
     "description": "Same has .getDataSet() but, this get data from all elements."
   },
   "krcs": {
     "prefix": "krcs",
-    "body": "_k(${element}).removeChildrens()",
+    "body": "_k('${element}').removeChildrens()",
     "description": "It removes all the children of the element."
   },
   "khc": {
     "prefix": "khc",
-    "body": "_k(${element}).hasClass(${className})",
+    "body": "_k('${element}').hasClass(${className})",
     "description": "This function returns true if the element has the class, and false if it doesn't."
   },
   "ktc": {
     "prefix": "ktc",
-    "body": "_k(${element}).toggleClass(${className})",
+    "body": "_k('${element}').toggleClass(${className})",
     "description": "toggle the class of the element."
   },
   "ks": {
     "prefix": "ks",
-    "body": "_k(${element}).style(${propertyName}, ${value})",
+    "body": "_k('${element}').style('${propertyName}', ${value})",
     "description": "Add css to the element."
   },
   "ksobj": {
     "prefix": "ksobj",
     "body": [
-      "_k(${element}).style({",
+      "_k('${element}').style({",
       "\t${propertyName}: ${value}",
       "\t$0",
       "});"
@@ -86,23 +86,23 @@
   },
   "krme": {
     "prefix": "krme",
-    "body": "_k(${element}).remove()",
+    "body": "_k('${element}').remove()",
     "description": "Remove the element from the DOM."
   },
   "kafI": {
     "prefix": "kafI",
-    "body": "_k(${element}).animate().fadeIn()",
+    "body": "_k('${element}').animate().fadeIn()",
     "description": "Display the matched elements by fading them to opaque."
   },
   "kafO": {
     "prefix": "kafO",
-    "body": "_k(${element}).animate().fadeOut()",
+    "body": "_k('${element}').animate().fadeOut()",
     "description": "Hide the matched elements by fading them to transparent."
   },
   "kaa": {
     "prefix": "kaa",
     "body": [
-      "_k(${element}).animate().anime([",
+      "_k('${element}').animate().anime([",
       "\t{ ${propertyName}: ${value}}",
       "])"
     ],
